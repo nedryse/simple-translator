@@ -1,0 +1,6 @@
+services:
+    simpletranslator.translator:
+        class: Nedryse\Nette\Localization\SimpleTranslator
+
+    nette.templateFactory:
+        class: Nedryse\Nette\Bridges\ApplicationLatte\TranslatableTemplateFactory

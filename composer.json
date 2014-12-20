@@ -1,0 +1,31 @@
+{
+	"name": "nedryse/simple-translator",
+	"type": "library",
+	"description": "Simple implementation of \\Nette\\Localization\\ITranslator interface. Just print the key as is. Usefull when you have no time for managing gettext translation but want translatable application in the future.",
+	"keywords": ["nette", "latte", "translator", "dry", "nedryse"],
+	"homepage": "https://github.com/nedryse/simple-translator",
+	"license": "WTFPL",
+	"authors": [
+		{
+			"name": "Pavel Železný",
+			"email": "info@pavelzelezny.cz",
+			"homepage": "http://pavelzelezny.cz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/nedryse/simple-translator/issues"
+	},
+	"require": {
+		"php": ">=5.3.1",
+		"nette/di": "~2.2",
+		"nette/utils": "~2.2",
+		"nedryse/translateable-template-factory": "~1.0.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.3.*"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
