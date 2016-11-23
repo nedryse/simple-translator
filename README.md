@@ -3,7 +3,7 @@ Pavel Železný (2bfree), 2014 ([pavelzelezny.cz](http://pavelzelezny.cz))
 
 ## Requirements ##
 
-[Nette Framework 2.2.0](http://nette.org) or higher
+[Nette Framework 2.4.0](http://nette.org) or higher
 
 ## Documentation ##
 
@@ -11,15 +11,15 @@ Simple implementation of [\Nette\Localization\ITranslator](http://api.nette.org/
 
 ## Instalation ##
 
-Prefered way to intall is by [Composer](http://getcomposer.org)
+Prefered way to install is by [Composer](http://getcomposer.org)
 
-	composer require nedryse/simple-translator:~1.0.0
+	composer require nedryse/simple-translator:~1.1
 
 Or by manualy adding into the [composer.json](https://getcomposer.org/doc/04-schema.md#json-schema)
 
 	{
 		"require":{
-			"nedryse/simple-translator": "~1.0.0"
+			"nedryse/simple-translator": "~1.1"
 		}
 	}
 
